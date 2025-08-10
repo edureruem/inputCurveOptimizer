@@ -1,0 +1,96 @@
+# Maya 플러그인 빌드 파일
+build/
+*.mll
+*.so
+*.dll
+*.dylib
+
+# CMake 빌드 파일
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio 파일
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.unsortedproj
+*.vcproj
+*.vcproj.filters
+*.vcproj.user
+*.dsp
+*.dsw
+*.ncb
+*.opt
+*.plg
+*.aps
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Maya 임시 파일
+*.tmp
+*.temp
+*.log
+*.ma.bak
+*.mb.bak
+
+# OS 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+*.log
+logs/
+
+# 백업 파일
+*.bak
+*.backup
+*.old
